@@ -1,0 +1,46 @@
+{
+  "es_server_list": [
+    "http://127.0.0.1:9200/_search",
+    "http://127.0.0.1:9200/_search"
+  ],
+  "redis_master": [
+    {
+      "master_host": "127.0.0.1",
+      "port": "18981",
+      "db": "0",
+      "password":""
+    }
+  ],
+  "redis_read_only": [
+    {
+      "host": "127.0.0.1",
+      "port": "18981",
+      "db": "0",
+      "password":""
+    },
+    {
+      "host": "127.0.0.1",
+      "port": "18981",
+      "db": "0",
+      "password":""
+    }
+  ],
+  "mysql": [
+    {
+      "host": "127.0.0.1",
+      "port": "3306",
+      "db": "cloudmob_web",
+      "user":"root",
+      "password":"123456",
+      "keep-alive":"5"
+    },
+    {
+      "host": "127.0.0.1",
+      "port": "3306",
+      "db": "cloudmob_web",
+      "user":"root",
+      "password":"123456",
+      "keep-alive":"5"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "es_server_list": [
+    "http://127.0.0.1:9200/_search",
+    "http://172.31.42.185:9200/_search"
+  ],
+  "redis_master": [
+    {
+      "master_host": "172.31.35.155",
+      "port": "18981",
+      "db": "0",
+      "password":""
+    }
+  ],
+  "redis_read_only": [
+    {
+      "host": "172.31.35.55",
+      "port": "18981",
+      "db": "0",
+      "password":""
+    },
+    {
+      "host": "172.31.35.155",
+      "port": "18981",
+      "db": "0",
+      "password":""
+    }
+  ],
+  "mysql": [
+    {
+      "host": "172.31.35.55",
+      "port": "3306",
+      "db": "cloudmob_web",
+      "user":"cloudmob",
+      "password":"cloudmob",
+      "keep-alive":"5"
+    },
+    {
+      "host": "172.31.35.155",
+      "port": "3306",
+      "db": "cloudmob_web",
+      "user":"cloudmob",
+      "password":"cloudmob",
+      "keep-alive":"5"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+
+
+######  此文档用于错误码与错误信息的对照表
+
+affiliate
+
+0        no error
+1001     identify is none
+1002     affiliate id parse error
+1003     redis and mysql read data failed, IQ needs to recharge!
+1004     ads daily cap or ads total cap not enough.
+1005     ads start time or ads finish time not enough.
+1010     pccall error
+
+
+
+
+ads
+
+0       no error
+2001    es cache info get error
+2002    parse click id failed
+2003    get redis or mysql failed
+2004    affiliate recall error, put into failed queue
+2005    postback url error
+2006    广告主发的重复回传
+2007    request already in record list
+2012    trigger deduct
+2014    ads daily cap or ads total cap not enough
+2015    over quantity(爆量)
